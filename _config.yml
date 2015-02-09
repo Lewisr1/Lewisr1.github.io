@@ -11,17 +11,3 @@ url: "http://srheaters.co.uk" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-
-# Plugins
-gems: [my-plugin]
-
-# Images
-mini_magick:
-#    thumbnail:
-#        source: assets/original
-#        destination: img/photos/thumbnail
-#        resize: "100x100"
-    medium:
-        source: assets/original
-        destination: assets/medium
-        resize: "600x400"
