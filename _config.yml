@@ -1,0 +1,27 @@
+# Site settings
+title: SR Heaters
+email: srheaters@btconnect.com
+description: British UK based manufacturer of heating and cooling coils.
+             We offer a wide range of heater matrixs, evaporators, condensers
+             and copper connections supplying into the vehicle heating and
+             cooling market to include cars, buses, trucks and agricultural
+             vehicles.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://srheaters.co.uk" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+
+# Plugins
+gems: [my-plugin]
+
+# Images
+mini_magick:
+#    thumbnail:
+#        source: assets/original
+#        destination: img/photos/thumbnail
+#        resize: "100x100"
+    medium:
+        source: assets/original
+        destination: assets/medium
+        resize: "600x400"
