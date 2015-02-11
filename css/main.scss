@@ -30,7 +30,14 @@ $content-width:    800px;
 $on-palm:          600px;
 $on-laptop:        800px;
 
+// Carosel
+ul.slick-dots {
+  margin-left: 0;
+}
 
+.slick-prev:before, .slick-next:before {
+  color: red;
+}
 
 // Using media queries with like this:
 // @include media-query($on-palm) {
