@@ -39,6 +39,10 @@ ul.slick-dots {
   color: red;
 }
 
+// Job advert
+.job-link { text-decoration: underline }
+.bold { font-weight: bold }
+
 // Using media queries with like this:
 // @include media-query($on-palm) {
 //     .wrapper {
